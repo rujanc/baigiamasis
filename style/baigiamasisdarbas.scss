@@ -1,0 +1,180 @@
+
+
+/*# sourceMappingURL=baigiamasisdarbas.css.map */
+.navbar {
+  background-color: #2c333a !important;
+    .navbar-brand {
+      color: grey;
+      margin-left: 100px;
+    }
+    .nav-link {
+      color: grey !important;
+    }
+
+    .navbar-nav {
+      margin-left: 100px;
+      padding-left: 500px;
+    }
+
+ }
+
+ .carouselmain {
+   background: #f2f2f2;
+   .carousel{
+     .carousel-item {
+       background: #f2f2f2;
+       height: 345px;
+       line-height: 345px;
+        p {
+          text-align: center;
+        }
+     }
+   }
+ }
+
+.welcome {
+  display: flex;
+  justify-content: center;
+  .welcome-title {
+    width: 90%;
+    border-bottom: 2px solid lightgrey;
+    margin-top: 30px;
+  }
+}
+.container-info-main {
+  display: flex;
+  justify-content: center;
+  .container-info {
+    width: 90%;
+    .icon-box {
+      border-radius: 5px;
+      border: 1px solid lightgrey;
+      margin-top: 30px;
+
+        .title {
+          height: 40px;
+          background-color: #e2e6e9;
+          border-bottom: 1px solid lightgrey;
+          padding-left: 10px;
+          padding-top: 10px;
+
+        }
+        .btn {
+          border: 2px solid #D3D3D3;
+          background-color: transparent;
+          color: #A9A9A9;
+          font-size: 15px;
+          text-transform: uppercase;
+        }
+
+        h5 {
+          padding-top: 10px;
+          width: 50px;
+          display: inline;
+          margin: 15px;
+        }
+        p {
+          margin: 10px;
+        }
+    }
+  }
+}
+
+.portfolio {
+  display: flex;
+  justify-content: center;
+  .portfolio-title {
+    width: 90%;
+    border-bottom: 2px solid lightgrey;
+    margin-top: 30px;
+  }
+}
+
+.container-photo-main{
+  display: flex;
+  justify-content: center;
+  .container-photo {
+    width: 90%;
+    img {
+      width: 397px;
+      margin-top: 20px;
+    }
+  }
+}
+.features {
+  display: flex;
+  justify-content: center;
+  .features-title {
+    width: 90%;
+    border-bottom: 2px solid lightgrey;
+    margin-top: 30px;
+  }
+}
+
+.porfolio-last-container {
+  display: flex;
+  justify-content: center;
+  .portfolio-last {
+    width: 90%;
+    margin-top: 30px;
+    padding-bottom: 30px;
+    border-bottom: 2px solid lightgrey;
+  }
+  img {
+    width: 603px;
+
+  }
+  @media (max-width: 500px) {
+    .image-porfolio {
+      width: 397px;
+    }
+  }
+}
+
+.call-container {
+  margin-top: 30px;
+  display: flex;
+  justify-content: center;
+  .call-title {
+    width: 90%;
+    background-color: #e2e6e9;
+    border: 1px solid #a8b3bd;
+    border-radius: 5px;
+      p {
+        margin-top: 20px;
+        margin-left: 10px;
+        .btn {
+          border: 2px solid #D3D3D3;
+          background-color: transparent;
+          color: #A9A9A9;
+          font-size: 15px;
+          text-transform: uppercase;
+          width: 250px;
+        }
+      }
+
+  }
+
+}
+
+.border-last {
+  display: flex;
+  justify-content: center;
+  .border-title{
+    width: 90%;
+    border-bottom: 2px solid lightgrey;
+    margin-top: 30px;
+  }
+}
+
+.footer {
+  display: flex;
+  justify-content: center;
+  .footer-title {
+    width: 90%;
+      p {
+        margin-top: 50px;
+      }
+
+  }
+}
